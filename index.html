@@ -3,10 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venkatesh Resume</title>
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>   
-    <h1>Venkatesh Balakrishnan</h1>
-    <p>Hey Buddy, This is Venkatesh.</p>
+<body>
+    <div class="document-container">
+        <h1>My Personal Portfolio</h1>
+        
+        <div class="profile-section">
+            <div class="interactive-section" data-section="personal-info">
+                <h2>Personal Information</h2>
+                <p data-copy="name">Name: [Your Name]</p>
+                <p data-copy="email">Email: [your.email@example.com]</p>
+                <p data-copy="phone">Phone: [Your Phone Number]</p>
+            </div>
+            
+            <div class="interactive-section" data-section="professional-summary">
+                <h2>Professional Summary</h2>
+                <p data-copy="summary">A passionate professional with expertise in [Your Field]</p>
+            </div>
+            
+            <div class="interactive-section" data-section="skills">
+                <h2>Skills</h2>
+                <ul data-copy="skills-list">
+                    <li>• Skill 1</li>
+                    <li>• Skill 2</li>
+                    <li>• Skill 3</li>
+                </ul>
+            </div>
+            
+            <div class="interactive-section" data-section="education">
+                <h2>Education</h2>
+                <p data-copy="degree">Degree: [Your Degree]</p>
+                <p data-copy="institution">Institution: [Your Institution]</p>
+                <p data-copy="graduation">Graduation Year: [Year]</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
